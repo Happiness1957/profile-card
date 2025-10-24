@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card | Omeniho Anurika</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <div class="profile-left">
+        <figure>
+          <img
+            src="image/avater.png"
+            alt="User Avatar"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+
+        <header>
+          <h2 data-testid="test-user-name">Omeniho Happiness</h2>
+        </header>
+      </div>
+
+      <div class="profile-right">
+        <div class="info-block">
+          <p class="bio" data-testid="test-user-bio">
+            Biochemistry graduate and aspiring cybersecurity professional
+            passionate about technology, creativity, and growth.
+          </p>
+          <strong>Current Time:</strong>
+
+          <p data-testid="test-user-time"></p>
+        </div>
+
+        <div class="lists">
+  <section data-testid="test-user-hobbies" class="info-card">
+    <h3>Hobbies</h3>
+    <ul>
+      <li> Designing</li>
+      <li> Coding</li>
+      <li> Movies</li>
+    </ul>
+  </section>
+
+  <section data-testid="test-user-dislikes" class="info-card">
+    <h3>Dislikes</h3>
+    <ul>
+      <li>Noise</li>
+      <li>Dishonesty</li>
+    </ul>
+  </section>
+</div>
+
+        <div class="socials">
+  
+  <nav data-testid="test-user-social-links">
+    <ul>
+      <li>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin" class="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-instagram" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+      </div>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
+</html>
