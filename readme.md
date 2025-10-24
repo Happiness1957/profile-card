@@ -28,3 +28,11 @@ To run the project on your system:
 1. Clone this repository:
    ```bash
     git clone https://github.com/Happiness1957/profile-card.git
+
+## 🧩 Tests & Notes
+
+- Each section includes `data-testid` attributes for testing.
+- Time is generated using `Date.now()` in JavaScript.
+- Links are keyboard accessible and open in new tabs.
+- Layout is responsive across all screen sizes.
+- Built with only HTML, CSS, and JavaScript.
